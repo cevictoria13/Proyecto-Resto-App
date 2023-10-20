@@ -1,0 +1,14 @@
+.micarrusel{
+    height: 500px;
+   
+}
+
+.micarrusel img{
+    height: 150%;
+    align-items: center;
+
+    justify-content: center;
+    
+    
+}
+

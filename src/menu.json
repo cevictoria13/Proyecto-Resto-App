@@ -1,0 +1,48 @@
+{
+    "platos":[
+        {
+            "SKU":"p1",
+            "nombre": "Ceviche El Origen",
+            "precio": "$12.500",
+            "descripcion":"Pez de roca acompañado de camarón nacional aliñados con limón fresco y aceite de oliva, cebolla morada, cilantro y papaya.",
+            "imagen": "../public/ceviche-mixto-peruano.jpg"
+        },
+        {
+            "SKU":"p2",
+            "nombre": "Tártaro de Dorado",
+            "precio": "$13.000",
+            "descripcion":"Filetes de dorado aliñados con salsa de ostras, acete de oliva y salsa de ají del Valle del Huasco, pepinillos, cebolla y ají verde encurtido.",
+            "imagen": "../public/tartaro de pez.jpg"
+        },
+        {
+            "SKU":"p3",
+            "nombre": "Carpaccio del Huasco",
+            "precio": "$13.000",
+            "descripcion":"Finas láminas de pez de roca bañado con salsa de oliva del valle del Huasco y queso de cabra.",
+            "imagen": "../public/carpaccio.jpg"
+        },
+        {
+            "SKU":"p4",
+            "nombre": "Sopa Marina",
+            "precio": "9.000",
+            "descripcion":"Sopa reconfortante de mariscos de la zona con verduras, pasta y miso.",
+            "imagen": "../public/sopa marina.jpg"
+        },
+        {
+            "SKU":"p5",
+            "nombre": "Ensalada de Origen",
+            "precio": "8.000",
+            "descripcion":"Variedad de hojas verdes acompañadas de hortalizas de temporada de la Huerta El Origen.",
+            "imagen": "../public/plato-el-origen-5.avif"
+        },
+        {
+            "SKU":"p6",
+            "nombre": "Ensalada Marina",
+            "precio": "9.000",
+            "descripcion":"Variedad de mariscos de la zona acompañados con hojas verdes y hortalizas de la Huerta El Origen aliñadas con limón fresco.",
+            "imagen": "../public/tabla-el-origen-1.avif"
+        }  
+
+    ]
+
+}
