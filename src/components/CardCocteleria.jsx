@@ -1,17 +1,9 @@
-// import { useState, useEffect } from "react";
-// import { db } from "../config/Firebase";
-// import { collection, getDocs } from "firebase/firestore";
+
 import { Button, Card } from "react-bootstrap";
 import { CardGroup } from 'react-bootstrap';
 
-
-
-
-
 //cocteleria 
 export const Cocteleria = ({ cocteleria }) => {
-
-
 
     return (
 

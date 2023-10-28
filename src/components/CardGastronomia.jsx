@@ -1,6 +1,5 @@
 import menu from '../menu.json'
 import Card from 'react-bootstrap/Card';
-// import Button from 'react-bootstrap/Button';
 import { CardGroup } from 'react-bootstrap';
 
 export const CardGastronomia = () => {
@@ -29,7 +28,6 @@ export const CardGastronomia = () => {
                                         {plato.descripcion}
                                     </Card.Text>
                                 </Card.Body>
-                                {/* <Button  variant="success">ver detalles</Button> */}
                             </Card>
                         ))
                     }

@@ -26,8 +26,6 @@ export const Footer = () =>
                         <li><a href="#!"><Telephone /></a> +56 9 555 55 555</li>
                     </ul>
                 </div>
-
-
             </div>
         </div>
     </div>

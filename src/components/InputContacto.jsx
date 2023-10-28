@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 
 export const InputContacto = () => {
+
   return (
     <div className="text-bg-dark p-5 mb-3"> 
     
@@ -17,7 +18,6 @@ export const InputContacto = () => {
             <Form.Control type="name" placeholder="Nombre completo" />
           </Form.Group>
           
-
           <Form.Group as={Col} controlId="formGridEmail">
             <Form.Label>Email</Form.Label>
             <Form.Control className="text-muted" type="email" placeholder="Email" />
@@ -30,7 +30,6 @@ export const InputContacto = () => {
         </Row>
 
         <Row className="mb-3">
-
           <Form.Group as={Col} controlId="formGridState">
             <Form.Label>Selecciona tu consulta</Form.Label>
             <Form.Select defaultValue="Selecciona...">
@@ -45,11 +44,9 @@ export const InputContacto = () => {
           <Col>
             <Form.Control className="text-muted" type="text" placeholder="Escribe aquí tu mensaje" />
           </Col>
-
         </Row>
 
-
-        <Button className="btn btn-secondary" type="submit">Enviar</Button>
+        <Button className="btn btn-dark" type="button">Enviar</Button>
       </Form>
 
     </div>

@@ -1,4 +1,5 @@
-{/*
+{/* En construcción ....
+
 import { db } from "../config/Firebase";
 import { collection, addDoc, getDocs } from "firebase/firestore";
 

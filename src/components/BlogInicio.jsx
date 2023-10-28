@@ -51,19 +51,9 @@ function Blog() {
       <Card.Img style={{ width: "600px"}} className="bg-secondary ms-4" src="../../public/Captura excelencia.JPG" alt="EL ORIGEN" />
       <br />
 
-      
     </Card>
   );
 }
 
 export default Blog;
 
-{/*</Card> </Card.ImgOverlay>*/}
-
-{/*<Card.Title  className="bg-white text-black ms-3">Nuestra calidad ha sido reconocida</Card.Title>
-        <Card.Text className="bg-white text-black ms-3
-        " >
-        El Mejor Rincón Gastronómico a Orillas del Mar, Nuestra pasión y compromiso nos han valido el reconocimiento de críticos culinarios y la lealtad de nuestros comensales. Hemos sido galardonados con múltiples premios por la calidad de nuestra comida y nuestro servicio excepcional.
-        </Card.Text>        
-        <Card.Img className="ms-3"  src="../../public/Captura excelencia.JPG" alt="EL ORIGEN" />
-*/}

@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import './carousel.css';
+
 export const Carrusel = () => {
     return (
         <Carousel  data-bs-theme="dark">

@@ -1,14 +1,7 @@
-
 import { Button, Card } from "react-bootstrap";
 import { CardGroup } from 'react-bootstrap';
 
 export const Menu = ({ menu }) => {
-
-
-
-
-
-
 
     return (
         <div className="text-bg-dark p-3 ">
