@@ -2,6 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
+import { AlertaContacto } from './AlertaContacto';
 
 export const InputContacto = () => {
 
@@ -46,7 +47,7 @@ export const InputContacto = () => {
           </Col>
         </Row>
 
-        <Button className="btn btn-dark" type="button">Enviar</Button>
+        <Button onClick={AlertaContacto}  className="btn btn-dark" type="button">Enviar</Button>
       </Form>
 
     </div>
