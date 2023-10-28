@@ -2,7 +2,7 @@
 import { db } from "../config/Firebase";
 import { collection, addDoc, getDocs } from "firebase/firestore";
 
-const Reservas = () => {
+ export const Reservas = () => {
   const valorInicial = {
     nombre: "",
     email: "",
@@ -33,4 +33,4 @@ const Reservas = () => {
   )
 }
 
-export default Reservas */}
+ */}

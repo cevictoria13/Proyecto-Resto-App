@@ -1,52 +1,46 @@
-import menu from '../menu.json'
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+
+import { Button, Card } from "react-bootstrap";
 import { CardGroup } from 'react-bootstrap';
 
-export const CardMenu = () => {
- 
+export const Menu = ({ menu }) => {
+
+
+
+
+
+
+
     return (
-        <div>
-
-            <h1 className='text-center'>GASTRONOMÍA</h1>
+        <div className="text-bg-dark p-3 ">
             <br />
 
-            <h3 className='text-center'>Te presentamos los platos destacados en El Origen</h3>
+            <h1 className='text-center text-white'>Menú</h1>
             <br />
-            <div className=" ">
-                <CardGroup className="justify-content-center ms-5">
-                    
-                       {
-                        menu.platos.map(plato => (
+            <p className="text-center text-white p-5"> Cada plato que sale de nuestra cocina es una obra maestra culinaria. Nuestros chefs expertos combinan la frescura de los ingredientes locales con técnicas innovadoras para crear sabores que despiertan los sentidos. </p>
+            <br />
 
-                            <Card className="card text-white bg-dark ms-3" key={plato.SKU} style={{ width: '18rem', height: '420px' }}>
-                                <Card.Img style={{ height: "200px" }} variant="top" src={plato.imagen} />
-                                <br />
-                                <Card.Body>
-                                    <Card.Title className='text-center' >{plato.nombre}</Card.Title>
-                                    <Card.Text className='text-center'>
-                                        {plato.descripcion}
-                                    </Card.Text>
-                                </Card.Body>
-                                <Button  variant="success">ver detalles</Button>
-                            </Card>
-                        ))
-                    }
-                </CardGroup>
-            </div>
+            <CardGroup className="justify-content-center ms-2">
+
+                {
+                    menu.map(plato => (
+
+                        <Card className="card text-white bg-secondary ms-3" key={plato.id} style={{ width: '18rem' }}>
+                            <Card.Img style={{ height: "200px" }} variant="top" src={plato.imagen} alt={plato.nombre} />
+                            <br />
+                            <Card.Body>
+                                <Card.Title className='text-center' >{plato.nombre}</Card.Title>
+                                <Card.Text className='text-center'>
+                                    {plato.detalle}
+                                </Card.Text>
+                            </Card.Body>
+                            <Button variant="dark">Precio: ${plato.precio} CLP</Button>
+                        </Card>
+                    ))
+                }
+            </CardGroup>
         </div>
+
     )
 }
 
 
-{/*menu.cocktails.map(cocktail=> (
-
-    <Card key={cocktail.SKU} style={{ width: '18rem'}}>
-        <Card.Img variant="top" src= {cocktail.imagen} />
-        <br />
-        <Card.Body>
-            <Card.Title>{cocktail.nombre}</Card.Title>
-            <Card.Text>
-                {cocktail.descripcion}
-            </Card.Text>
-        </Card.Body>   */}

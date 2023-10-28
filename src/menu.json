@@ -23,25 +23,18 @@
         },
         {
             "SKU":"p4",
-            "nombre": "Sopa Marina",
-            "precio": "9.000",
-            "descripcion":"Sopa reconfortante de mariscos de la zona con verduras, pasta y miso.",
-            "imagen": "../public/sopa marina.jpg"
-        },
-        {
+            "nombre": "Coctel El Mecanizado",
+            "precio": "$7.000",
+            "descripcion":"Vermut Extra Dry fusionado con licor de maracuyá, jugo de limón fresco y un toque de albahaca",
+            "imagen": "../public/foto-cocktail-bar-el-origen-2.avif"
+        }, {
             "SKU":"p5",
-            "nombre": "Ensalada de Origen",
-            "precio": "8.000",
-            "descripcion":"Variedad de hojas verdes acompañadas de hortalizas de temporada de la Huerta El Origen.",
-            "imagen": "../public/plato-el-origen-5.avif"
-        },
-        {
-            "SKU":"p6",
-            "nombre": "Ensalada Marina",
-            "precio": "9.000",
-            "descripcion":"Variedad de mariscos de la zona acompañados con hojas verdes y hortalizas de la Huerta El Origen aliñadas con limón fresco.",
-            "imagen": "../public/tabla-el-origen-1.avif"
-        }  
+            "nombre": "Coctel Sour Patrimonial",
+            "precio": "$7.000",
+            "descripcion":"Una exquisita combinación de Pisco Bou Barrueta, jugo de limón y licor de naranja",
+            "imagen": "../public//foto-cocktail-bar-el-origen-1.avif"
+        }
+
 
     ]
 

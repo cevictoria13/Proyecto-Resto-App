@@ -1,10 +1,13 @@
 import Card from "react-bootstrap/Card";
-import GroupExample from "../components/cardHistoria";
+import { CardHistory } from "../components/CardHistory";
 
 
-function ImgOverlayExample() {
+
+
+export const Historia = () => {
   return (
     <div className="text-bg-dark p-3" >
+      <br />
       <h1 className='text-center'>Nuestra Historia</h1>
             <br />
       <Card className=" text-white">
@@ -34,12 +37,11 @@ function ImgOverlayExample() {
       </Card>
       <br />
       <>
-        <GroupExample/>
+        <CardHistory/>
       </>
       <br />
     </div>
   );
 }
 
-export default ImgOverlayExample;
 

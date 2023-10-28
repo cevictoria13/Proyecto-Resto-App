@@ -1,11 +1,13 @@
-import { CardMenu } from "../components/CardMenu";
+import Blog, { BlogInicio } from "../components/BlogInicio";
+import { CardGastronomia } from "../components/CardGastronomia"
 import { Carrusel } from "../components/Carrusel";
-import Contacto from "./Contacto";
+import "./inicio.css"
 
-const Inicio = () => {
+export const Inicio = () => {
   return (
     <>
       <div className="text-bg-dark p-3">
+        <br />
         <h1 className='text-white text-center'>Restaurant Bar El Origen, <br />
         donde nace la Historia</h1>
       </div>
@@ -13,13 +15,15 @@ const Inicio = () => {
       <div>
         <Carrusel />
         <br />
-        <CardMenu /> 
+        <CardGastronomia /> 
         <br />
         <br />
-        <Contacto /> 
+        <BlogInicio />
+        <br />
+        <Blog />
       </div>
     </>
   )
 }
 
-export default Inicio;
+

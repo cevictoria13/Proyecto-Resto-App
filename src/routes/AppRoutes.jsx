@@ -1,15 +1,17 @@
 import { Routes, Route } from "react-router-dom"
-import Inicio from "./Inicio"
-import Historia from "./Historia"
-import { Gastronomia } from "./Gastronomia"
+import { Inicio } from "./Inicio"
+import { Carta } from "./Carta"
+// import { Menu }  from "./Menu"
 import { Ubicacion } from "./Ubicacion"
-import Contacto from "./Contacto"
+import { Contacto } from "./Contacto"
 //import Reservas from "../components/Reservas"
-import Layout from "../components/Layout/Layout" 
+
 import NotFoundPage from "./NotFoundPage"
+import { Historia } from "./Historia"
+import { Layout } from "../components/Layout/Layout"
 
 
-const AppRoutes = () => {
+ export const AppRoutes = () => {
   return (
     <div>
    
@@ -17,7 +19,7 @@ const AppRoutes = () => {
         <Route element={<Layout />}>
           <Route path="/" element={<Inicio />} />
           <Route path="/historia" element={<Historia />} />
-          <Route path="/gastronomia" element={<Gastronomia />} />
+          <Route path="/carta" element={<Carta />} />
           <Route path="/ubicacion" element={<Ubicacion />} />
           <Route path="/contacto" element={<Contacto />} />
     {/*   <Route path="/reservas" element={<Reservas />} /> */}
@@ -31,4 +33,4 @@ const AppRoutes = () => {
   )
 }
 
-export default AppRoutes
+

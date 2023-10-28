@@ -14,10 +14,10 @@ const Navigation = () => {
                             <Nav className="me-auto">
                                 <Nav.Link href="/">Inicio</Nav.Link>
                                 <Nav.Link href="/historia">Historia</Nav.Link>
-                                <Nav.Link href="/gastronomia">Gastronomía</Nav.Link>
+                                <Nav.Link href="/carta">Carta</Nav.Link>
                                 <Nav.Link href="/ubicacion">Ubicación</Nav.Link>
                                 <Nav.Link href="/contacto">Contacto</Nav.Link>
-                                {/* <Nav.Link href="/reservas">Reservas</Nav.Link> */}
+                                <Nav.Link href="/reservas">Reservas</Nav.Link> {/*lo agregamos al navbar, para señalar que lo tenemos contemplado, y activaremos más adelante*/}
 
                             </Nav>
                         </Navbar.Collapse>

@@ -1,8 +1,9 @@
 import { Outlet } from "react-router-dom"
 import Navigation from "../../routes/navigation/navigation"
-import Footer from "../Footer"
+import { Footer } from "../Footer"
 
-const Layout = () => {
+
+export const Layout = () => {
   return (
     <div>
         <Navigation />
@@ -12,4 +13,4 @@ const Layout = () => {
   )
 }
 
-export default Layout
+
